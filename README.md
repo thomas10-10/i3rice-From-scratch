@@ -5,7 +5,7 @@ make i3 and polybar rice from empty system
 tested on debian stretch
 
 # Prerequites
-1.Connection internet estabished\
+1.Connection internet estabished\ with dns resolving worked
 2.Depot debian
 ``` 
 deb [arch=amd64] http://httpredir.debian.org/debian          stable         main
@@ -14,3 +14,5 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 
 # Warnings
 .config will erase by this new config
+
+# Setup
