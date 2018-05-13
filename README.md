@@ -5,8 +5,8 @@ make i3 and polybar rice from empty system
 tested on debian stretch
 
 # Prerequites
-connection internet estabished\
-depot debian
+1.connection internet estabished\
+2.depot debian
   ff
  
 # Warning
