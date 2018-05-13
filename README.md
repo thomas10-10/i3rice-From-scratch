@@ -7,7 +7,7 @@ https://github.com/thomas10-10/i3rice-From-scratch/blob/master/config1/config1.j
 
 # Prerequites
 1. Debian (tested on debian stretch)
-2. Connection internet estabished\ with dns resolving worked
+2. Connection internet estabished with dns resolving worked
 2. Depot debian
 ``` 
 deb [arch=amd64] http://httpredir.debian.org/debian          stable         main
@@ -18,3 +18,7 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 .config will erase by this new config
 
 # Setup
+
+# contributes
+Thanks to : A guide to replicating my riced Arch Linux set-up. https://github.com/IbrahimButt/direwolf-arch-rice
+Wallpapers : find author
