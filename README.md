@@ -4,10 +4,10 @@ make i3 and polybar rice from empty system
 
 tested on debian stretch
 
-#Prerequites
+# Prerequites
 connection internet estabished
 depot debian
   ff
  
-#Warning
+# Warning
 .config will erase by this new config
