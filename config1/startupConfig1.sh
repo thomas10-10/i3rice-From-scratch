@@ -59,5 +59,5 @@ apt install compton -y
 apt install feh -y
 #compton -c -r 4 -l -2 -t -4 -G -b
 
-cp -r startupConfig1Ress/.* ~/
+cp -r config1_ress/.* ~/
 
