@@ -7,9 +7,10 @@ tested on debian stretch
 # Prerequites
 1.Connection internet estabished\
 2.Depot debian
-``` ff
-    fefef
+``` 
+deb [arch=amd64] http://httpredir.debian.org/debian          stable         main
+deb [arch=amd64] http://security.debian.org/ stable/updates main    
 ```
 
-# Warning
+# Warnings
 .config will erase by this new config
