@@ -6,8 +6,8 @@ https://github.com/thomas10-10/i3rice-From-scratch/blob/master/config1/config1.j
 tested on debian stretch
 
 # Prerequites
-1.Connection internet estabished\ with dns resolving worked
-2.Depot debian
+1. Connection internet estabished\ with dns resolving worked
+2. Depot debian
 ``` 
 deb [arch=amd64] http://httpredir.debian.org/debian          stable         main
 deb [arch=amd64] http://security.debian.org/ stable/updates main    
