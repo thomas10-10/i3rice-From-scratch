@@ -20,5 +20,5 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 # Setup
 
 # contributes
-Thanks to : A guide to replicating my riced Arch Linux set-up. https://github.com/IbrahimButt/direwolf-arch-rice
+Thanks to : A guide to replicating my riced Arch Linux set-up. https://github.com/IbrahimButt/direwolf-arch-rice\
 Wallpapers : find author
