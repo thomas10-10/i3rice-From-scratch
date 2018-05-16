@@ -15,9 +15,17 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 ```
 
 # Warnings
-.config will erase by this new config
+~/.config will erase by this new config
 
 # Setup
+copy config1.sh in your ~ then
+
+``` 
+chmod +x ~/config1.sh
+cd ~
+./config1.ch 
+```
+
 
 # contributes
 Thanks to : A guide to replicating my riced Arch Linux set-up. https://github.com/IbrahimButt/direwolf-arch-rice\
