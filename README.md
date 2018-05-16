@@ -18,12 +18,15 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 ~/.config will erase by this new config
 
 # Setup
-copy config1.sh in your ~ then
+copy config1.sh in your ~ 
+then
 
 ``` 
-chmod +x ~/config1.sh
 cd ~
+https://raw.githubusercontent.com/thomas10-10/i3rice-From-scratch/master/config1/config1.sh
+chmod +x config1.sh
 ./config1.ch 
+DISPLAY=:0 i3
 ```
 
 
