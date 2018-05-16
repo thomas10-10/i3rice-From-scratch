@@ -23,7 +23,7 @@ then
 
 ``` 
 cd ~
-https://raw.githubusercontent.com/thomas10-10/i3rice-From-scratch/master/config1/config1.sh
+curl https://raw.githubusercontent.com/thomas10-10/i3rice-From-scratch/master/config1/config1.sh > config1.sh
 chmod +x config1.sh
 ./config1.ch 
 DISPLAY=:0 i3
