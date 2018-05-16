@@ -1,20 +1,20 @@
-IN CONSTRUCTION
-IN CONSTRUCTION
-IN CONSTRUCTION
-IN CONSTRUCTION
-IN CONSTRUCTION
-IN CONSTRUCTION
+####################
+# cookbook config1 #
+####################
 
+config_tmp=config1_tmp
+
+sed -i "s/nameserver/nameserver 8.8.8.8/g" /etc/resolv.conf
 apt update
 apt install i3 -y
-apt install vim -y
 apt install xterm -y
+
 ############################I3-gapps#############################
 apt install git -y
 apt install dh-autoreconf -y
 apt install libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev -y
-mkdir ~/i3gaps
-cd ~/i3gaps
+mkdir ~/$config_tmp/i3gaps
+cd ~/$config_tmp/i3gaps
 # clone the repository
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
@@ -32,14 +32,14 @@ cd ~
 apt install x11-xfs-utils -y
 apt install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev -y
 apt-get install cmake cmake-data libboost-dev libfreetype6-dev libxcb1-dev libx11-xcb-dev libxcb-util0-dev libxcb-image0-dev libxcb-randr0-dev libxcb-ewmh-dev libxcb-icccm4-dev xcb-proto python-xcbgen i3-wm libiw-dev libasound2-dev libmpdclient-dev -y
-mkdir ~/poly
-cd ~/poly
+mkdir ~/$config_tmp/ipoly
+cd ~/$config_tmp/poly
 git clone --branch 3.1.0 --recursive https://github.com/jaagr/polybar
 mkdir polybar/build
 cd polybar/build
 cmake ..
 make install
-###############################CONF POLYBAR#######"""
+###############################CONF POLYBAR#######
 make userconfig
 
 ###enable bitmap 
@@ -51,7 +51,7 @@ dpkg-reconfigure fontconfig
 cd ~
 
 #siji
-mkdir ~/sij && cd ~/sij
+mkdir ~/$config_tmp/sij && cd ~/$config_tmp/sij
 git clone https://github.com/stark/siji && cd siji
 ./install.sh
 fc-cache
@@ -65,7 +65,7 @@ apt install ranger -y
 apt install compton -y
 apt install feh -y
 #compton -c -r 4 -l -2 -t -4 -G -b
-
+#lxc.cgroup.devices.allow = c 116:* rwm
 
 ###############################################################################################################################################################
 #######
@@ -858,5 +858,12 @@ cp -r ~/$config_ress/.* ~/
 
 
 #####################################################################################################################
+
+
+
+
+
+
+
 
 
