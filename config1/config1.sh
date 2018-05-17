@@ -4,7 +4,6 @@
 
 config_tmp=config1_tmp
 
-sed -i "s/nameserver/nameserver 8.8.8.8/g" /etc/resolv.conf
 apt update
 apt install i3 -y
 apt install xterm -y
