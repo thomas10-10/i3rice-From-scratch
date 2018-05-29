@@ -9,7 +9,7 @@ make i3 and polybar rice from empty system\
 
 # Prerequites
 1. Debian (tested on debian stretch)
-2. Connection internet estabished with dns resolving worked
+2. Internet connection
 3. Depot debian
 4. xorg
 ``` 
