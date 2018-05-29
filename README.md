@@ -10,7 +10,8 @@ make i3 and polybar rice from empty system\
 # Prerequites
 1. Debian (tested on debian stretch)
 2. Connection internet estabished with dns resolving worked
-2. Depot debian
+3. Depot debian
+4. xorg
 ``` 
 deb [arch=amd64] http://httpredir.debian.org/debian          stable         main
 deb [arch=amd64] http://security.debian.org/ stable/updates main    
@@ -24,7 +25,8 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 cd ~
 curl https://raw.githubusercontent.com/thomas10-10/i3rice-From-scratch/master/config1/config1.sh > config1.sh
 chmod +x config1.sh
-./config1.ch 
+./config1.sh
+startx
 DISPLAY=:0 i3
 ```
 
