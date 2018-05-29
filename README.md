@@ -1,5 +1,5 @@
 # i3rice-From-scratch
-make i3 and polybar rice from empty system\
+Create i3 and polybar rice from empty system\
 
 <img src="https://raw.githubusercontent.com/thomas10-10/i3rice-From-scratch/master/config1/config1.jpg"  />
 
@@ -18,7 +18,7 @@ deb [arch=amd64] http://security.debian.org/ stable/updates main    
 ```
 
 # Warnings
-~/.config will erase by this new config
+~/.config will be erased by this new config.
 
 # Setup
 ``` 
